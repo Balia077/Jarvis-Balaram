@@ -104,7 +104,7 @@ function takeCommand(message){
     }
     else if(message.includes("open whatsapp")){
         speak("opening whatsapp")
-        window.close("www.whatsapp.com")
+        window.open("www.whatsapp.com")
     }
     else if(message.includes("close whatsapp")){
         speak("closing whatsapp")
