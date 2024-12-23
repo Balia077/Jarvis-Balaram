@@ -127,10 +127,10 @@ function takeCommand(message){
     else if(message.includes("banda")){
         speak("bia")
     }
-    else if(message.includes("love you"){
+    else if(message.includes("love you")){
         speak("love you too")
     }
-    else if(message.includes("aizen"){
+    else if(message.includes("aizen")){
         speak("yokoso watashino soul society")
     }
     else if(message.includes("time")){
