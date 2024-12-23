@@ -127,6 +127,12 @@ function takeCommand(message){
     else if(message.includes("banda")){
         speak("bia")
     }
+    else if(message.includes("love you"){
+        speak("love you too")
+    }
+    else if(message.includes("aizen"){
+        speak("yokoso watashino soul society")
+    }
     else if(message.includes("time")){
        let time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
        speak(time)
